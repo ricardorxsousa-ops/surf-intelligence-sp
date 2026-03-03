@@ -1,7 +1,7 @@
 import schedule
 import time
-from model import run_forecast
-from notifier import send_alert
+from worker.model import run_forecast
+from worker.notifier import send_alert
 
 def job():
     print("Rodando previsão...")
