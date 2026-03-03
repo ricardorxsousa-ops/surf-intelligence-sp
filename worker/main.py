@@ -1,5 +1,3 @@
-worker/main.py
-
 import schedule
 import time
 from model import run_forecast
